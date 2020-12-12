@@ -1,0 +1,8 @@
+
+.item::after {
+  border: none;
+  border-radius: 0;
+}
+image{
+  width:100%
+}

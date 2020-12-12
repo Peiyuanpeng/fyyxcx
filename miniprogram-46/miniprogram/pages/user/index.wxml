@@ -1,0 +1,37 @@
+<view class="user_info_wrap">
+  <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+    <image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+    <view class="user_info">
+      <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <navigator  url="/pages/login/index" >登录</navigator>
+  </view>
+</view> 
+<view class="user_content">
+  <view class="user_main">
+    <view class="history_wrap">
+    <navigator url="/pages/community/index">
+<text decode="true">&nbsp;</text>
+    <view class="his_name">我的日记</view>
+<text decode="true">&nbsp;</text>
+    </navigator>
+    <navigator url="/pages/index-relax/relax">
+<text decode="true">&nbsp;</text>
+    <view class="his_name">放松游戏学长版</view>
+<text decode="true">&nbsp;</text>
+    </navigator>
+
+    <navigator url="/pages/relax/relax">
+<text decode="true">&nbsp;</text>
+    <view class="his_name">我们的放松游戏</view>
+<text decode="true">&nbsp;</text>
+    </navigator>
+
+    </view>
+  </view>
+</view>
+<!-- <button bindtap="skip">登录</button> -->
+<image mode="widthFix" display:block src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2413874730,2235532588&fm=26&gp=0.jpg"></image>

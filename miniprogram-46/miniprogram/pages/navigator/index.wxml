@@ -1,0 +1,15 @@
+<!--添加数据-->
+<image  mode="widthFix" display:block src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2123972433,434239869&fm=26&gp=0.jpg"></image>
+<button bindtap="addData" type='primary'>添加心情</button>
+<input placeholder="输入时间" bindinput='addDate'></input>
+<input placeholder="输入心情" bindinput='addMood'></input>
+<view>添加结果:{{conclusion_0}}</view>
+<button bindtap="getData" type='primary'>查询心情</button>
+<view>你的心情会是怎样呢？</view>
+<view wx:for="{{dataObj}}">
+  心情:{{item.mood}}    日期:{{item.date}}
+  <text selectable="true" >id:{{item._id}}</text>
+</view>
+<button bindtap="delData" type='primary'>删除数据</button>
+<input placeholder="填写要删除的id" bindinput="delDataInput"></input>
+<view>删除结果:{{conclusion}}</view>

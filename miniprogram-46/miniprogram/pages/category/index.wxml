@@ -1,0 +1,109 @@
+<!--主盒子-->
+<view class="container">
+ <!-- 左侧栏 -->
+ <view class='nav_left'>
+ <view class="nav_left_items {{curNav == 1 ? 'active' : ''}}"
+ bindtap="switchRightTab" data-id="1">
+ 心灵鸡汤
+ </view>
+ <view class="nav_left_items {{curNav == 2 ? 'active' : ''}}"
+ bindtap="switchRightTab" data-id="2">
+ 名人名言
+ </view>
+ <view class="nav_left_items {{curNav == 3 ? 'active' : ''}}"
+ bindtap="switchRightTab" data-id="3">
+ 励志人生
+ </view>
+ <view class="nav_left_items {{curNav == 4 ? 'active' : ''}}"
+ bindtap="switchRightTab" data-id="4">
+ 每日故事
+ </view>
+ </view>
+ <!-- 右侧栏 -->
+ <view class="nav_right">
+ <view wx:if="{{curNav==1}}">
+ <view class="nav_right_items">
+ <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2898895470,2352859092&fm=26&gp=0.jpg"></image>
+ <button type='primary' bindtap="article_01">鸡汤1</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2529665264,4041646054&fm=26&gp=0.jpg"></image>
+ <button type='primary' bindtap="article_02">鸡汤2</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1404128591,1944335695&fm=26&gp=0.jpg"></image>
+ <button type='primary' bindtap="article_03">鸡汤3</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3830642168,4167057769&fm=26&gp=0.jpg"></image>
+ <button type='primary' bindtap="article_04">鸡汤4</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=301574879,2451193727&fm=26&gp=0.jpg"></image>
+ <button type='primary' bindtap="article_05">鸡汤5</button>
+ </view>
+ </view>
+
+ <view wx:if="{{curNav==2}}">
+ <view class="nav_right_items">
+ <image src="https://bkimg.cdn.bcebos.com/pic/50da81cb39dbb6fdecf5cad20a24ab18962b3793?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+ <button type='primary' bindtap="saying_01">孔子</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://bkimg.cdn.bcebos.com/pic/f11f3a292df5e0fe992503c89c2823a85edf8cb1d4eb?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+ <button type='primary' bindtap="saying_02">尼采</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=693038357,3015052211&fm=26&gp=0.jpg"></image>
+ <button type='primary' bindtap="saying_03">叔本华</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://bkimg.cdn.bcebos.com/pic/7e3e6709c93d70cf6b8af7feffdcd100bba12bd4?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+ <button type='primary' bindtap="saying_04">苏格拉底</button>
+ </view>
+ </view>
+
+ <view wx:if="{{curNav==3}}">
+ <view class="nav_right_items">
+ <image src="https://bkimg.cdn.bcebos.com/pic/8694a4c27d1ed21b62bf41e8a06eddc451da3f4c?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+ <button type='primary' bindtap="people_01">尼克胡哲</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://bkimg.cdn.bcebos.com/pic/a9d3fd1f4134970a8f95cfcc99cad1c8a6865d6b?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+ <button type='primary' bindtap="people_02">余秀华</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://bkimg.cdn.bcebos.com/pic/0bd162d9f2d3572c257447038f13632763d0c35f?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+ <button type='primary' bindtap="people_03">马云</button>
+ </view>
+ <view class="nav_right_items">
+ <image src="https://bkimg.cdn.bcebos.com/pic/6d81800a19d8bc3eb1350af7d9c1b11ea8d3fd1feffe?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+ <button type='primary' bindtap="people_04">爱迪生</button>
+ </view>
+ </view>
+
+ <view wx:if="{{curNav==4}}">
+<view class="nav_right_items">
+<image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1213287695,3413291189&fm=26&gp=0.jpg"></image>
+<button type='primary' bindtap="sentence_01">好句</button>
+</view>
+<view class="nav_right_items">
+<image src="https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=953555439,3343821164&fm=26&gp=0.jpg"></image>
+<button type='primary' bindtap="sentence_02">靠自己</button>
+</view>
+<view class="nav_right_items">
+<image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1825624221,2108360588&fm=26&gp=0.jpg"></image>
+<button type='primary' bindtap="sentence_03">神迹</button>
+</view>
+<view class="nav_right_items">
+<image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1276247868,1738799857&fm=26&gp=0.jpg"></image>
+<button type='primary' bindtap="sentence_04">钓竿</button>
+</view>
+<view class="nav_right_items">
+<image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1612138305,4216847452&fm=26&gp=0.jpg"></image>
+<button type='primary' bindtap="sentence_05">鲨鱼</button>
+</view>
+</view>
+
+ </view>
+</view>

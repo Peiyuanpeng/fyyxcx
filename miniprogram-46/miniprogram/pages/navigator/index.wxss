@@ -1,0 +1,4 @@
+/* pages/navigator/index.wxss */
+image{
+  width:100%
+}

@@ -1,0 +1,15 @@
+<view class="xlsy_index">
+  <SearchInput></SearchInput>
+</view>
+<swiper autoplay interval="5000" circular>
+  <swiper-item> <image class="a1" mode="widthFix" src="../../icons/person1.png"/></swiper-item>
+  <swiper-item> <image class="a1" mode="widthFix" src="../../icons/person2.png"/></swiper-item>
+  <swiper-item> <image class="a1" mode="widthFix" src="../../icons/person3.png"/></swiper-item>
+  <swiper-item> <image class="a1" mode="widthFix" src="../../icons/person4.png"/></swiper-item>
+</swiper>
+<view class="nav">
+  <navigator url="/pages/navigator/index"><image src="../../icons/x1.png"></image><view style="text-align:center">记录</view></navigator>
+  <navigator url="/pages/music/index"><image src="../../icons/x2.png"></image><view style="text-align:center">音乐</view></navigator>
+  <navigator url="/pages/pyq/pyq"><image src="../../icons/x3.png"></image><view style="text-align:center">社区</view></navigator>
+  <navigator url="/pages/feedback/feedback"><image src="../../icons/x4.png"></image><view style="text-align:center">反馈</view></navigator>
+</view>

@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="begininfo">
+  <button type='primary' bindtap='beginAnswer'> 开始测试 </button>
+  <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3525511046,2900298761&fm=26&gp=0.jpg"></image>
+</view>

@@ -1,0 +1,8 @@
+<textarea placeholder="输入您的文案" bindblur="bindTextAreaBlur"
+   value="{{details}}" class='text'> </textarea>
+<input>\n\n</input>
+<button bindtap="seleteAndUploadPicture">
+<image src='{{imgURL}}'></image>
+</button>
+<input>\n\n</input>
+<button type="primary" bindtap="share">分享</button>

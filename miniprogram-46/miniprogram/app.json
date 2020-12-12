@@ -1,0 +1,79 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/feedback/feedback",
+    "pages/login/index",
+    "pages/music/index",
+    "pages/navigator/index",
+    "pages/test/test",
+    "pages/question/index",
+    "pages/article_01/index",
+    "pages/article_02/index",
+    "pages/article_03/index",
+    "pages/article_04/index",
+    "pages/article_05/index",
+    "pages/sentence_01/index",
+    "pages/sentence_02/index",
+    "pages/sentence_03/index",
+    "pages/sentence_04/index",
+    "pages/sentence_05/index",
+    "pages/people_01/index",
+    "pages/people_02/index",
+    "pages/people_03/index",
+    "pages/people_04/index",
+    "pages/saying_01/index",
+    "pages/saying_02/index",
+    "pages/saying_03/index",
+    "pages/saying_04/index",
+    "pages/user/index" ,
+    "pages/pyq/pyq",
+    "pages/community/index",
+    "pages/saying/saying",
+    "pages/relax/relax"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#FF88C2",
+    "navigationBarTitleText": "请您微笑",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "icons/33.png",
+        "selectedIconPath": "icons/3.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "每日文章",
+        "iconPath": "icons/44.png",
+        "selectedIconPath": "icons/4.png"
+      },
+      {
+        "pagePath": "pages/question/index",
+        "text": "心情测评",
+        "iconPath": "icons/11.png",
+        "selectedIconPath": "icons/1.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人主页",
+        "iconPath": "icons/22.png",
+        "selectedIconPath": "icons/2.png"
+      }
+      
+      
+      
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

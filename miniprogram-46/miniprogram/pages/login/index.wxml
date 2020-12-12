@@ -1,0 +1,2 @@
+<button type="primary" plain  open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">登录</button>
+<image mode="widthFIx" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1811235616,624015786&fm=26&gp=0.jpg"></image>

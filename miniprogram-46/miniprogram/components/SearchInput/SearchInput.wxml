@@ -1,0 +1,5 @@
+<view class="search_input">
+  <navigator url="/pages/saying/saying">
+    作者有话说
+  </navigator>
+</view>

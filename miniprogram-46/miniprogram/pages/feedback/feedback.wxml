@@ -1,0 +1,8 @@
+<button type='primary' class="item" open-type="feedback">
+  <view class="item_left item">
+      <view class="item_title">意见反馈</view>
+    </view>
+  <view class="item_right">
+  </view>
+</button>
+<image  mode="widthFix" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3763790191,3943695427&fm=26&gp=0.jpg"></image>
